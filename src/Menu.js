@@ -6,7 +6,7 @@ import CheckBoxOutlinedIcon from '@mui/icons-material/CheckBoxOutlined';
 
 export const MyMenu = (props) => (
     <Menu {...props}>
-        <Menu.Item to="/users" primaryText="Users" leftIcon={<PeopleIcon />}/>
+        <Menu.Item to="/userProfile" primaryText="userProfile" leftIcon={<PeopleIcon />}/>
         <Menu.Item to="/button" primaryText="MUIButton" leftIcon={<CheckBoxOutlinedIcon />}/>
     </Menu>
 );
